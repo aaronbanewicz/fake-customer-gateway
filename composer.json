@@ -1,0 +1,6 @@
+{
+    "name": "albany-can-code/php-challenge-problem",
+    "require": {
+        "damiantw/fake-customer-gateway": "^1.0"
+    }
+}

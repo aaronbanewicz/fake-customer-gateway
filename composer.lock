@@ -1,0 +1,107 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "49a55ed8089b5f2909c228bac3ad15fc",
+    "packages": [
+        {
+            "name": "damiantw/fake-customer-gateway",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/damiantw/fake-customer-gateway.git",
+                "reference": "0eed7fac1aef7c6a15afeef9769cbb2b9ae38ba0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/damiantw/fake-customer-gateway/zipball/0eed7fac1aef7c6a15afeef9769cbb2b9ae38ba0",
+                "reference": "0eed7fac1aef7c6a15afeef9769cbb2b9ae38ba0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "tightenco/collect": "^5.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2",
+                "fzaninotto/faker": "^1.6",
+                "phpunit/phpunit": "~4.0 || ~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DamianTW\\FakeCustomerGateway\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Damian Crisafulli",
+                    "email": "damian.crisafulli@troyweb.com"
+                }
+            ],
+            "description": "A simple in-memory customer data gateway for Albany Can Code.",
+            "time": "2017-04-15T23:26:12+00:00"
+        },
+        {
+            "name": "tightenco/collect",
+            "version": "v5.4.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tightenco/collect.git",
+                "reference": "86e9675e2699f7c912d552e0f5f1bbfb004095f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/86e9675e2699f7c912d552e0f5f1bbfb004095f6",
+                "reference": "86e9675e2699f7c912d552e0f5f1bbfb004095f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.7",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Illuminate/Support/helpers.php"
+                ],
+                "psr-4": {
+                    "Illuminate\\": "src/Illuminate"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Collect - Illuminate Collections as a separate package.",
+            "keywords": [
+                "collection",
+                "laravel"
+            ],
+            "time": "2017-04-12T03:26:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
